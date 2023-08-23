@@ -13,7 +13,7 @@ class HeroHeaderUIView: UIView {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "FR2T-sKVEAAtkXR")
+        imageView.image = UIImage(named: "heroHeader")
         return imageView
     }()
     
