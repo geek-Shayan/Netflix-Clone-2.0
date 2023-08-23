@@ -13,7 +13,6 @@ class HomeViewController: UIViewController {
 //        let table = UITableView()
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
-//        table.register(UINib(nibName: "CollectionViewTableViewCell", bundle: nil), forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
         return table
     }()
 
@@ -27,7 +26,8 @@ class HomeViewController: UIViewController {
         homeFeedTableView.delegate = self
         homeFeedTableView.dataSource = self
         
-        homeFeedTableView.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
+        let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
+        homeFeedTableView.tableHeaderView = headerView
     }
     
     override func viewDidLayoutSubviews() {

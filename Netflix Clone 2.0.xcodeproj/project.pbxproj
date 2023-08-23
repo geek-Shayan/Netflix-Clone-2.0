@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0E70752A960C2800E4424B /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E70742A960C2800E4424B /* HeroHeaderUIView.swift */; };
 		1A88AADD2A95C5B70087540D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88AADC2A95C5B70087540D /* AppDelegate.swift */; };
 		1A88AADF2A95C5B70087540D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88AADE2A95C5B70087540D /* SceneDelegate.swift */; };
 		1A88AAE12A95C5B70087540D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88AAE02A95C5B70087540D /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A0E70742A960C2800E4424B /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		1A88AAD92A95C5B70087540D /* Netflix Clone 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A88AADC2A95C5B70087540D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A88AADE2A95C5B70087540D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1A88AB002A95D12F0087540D /* CollectionViewTableViewCell.swift */,
+				1A0E70742A960C2800E4424B /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A88AAF62A95C9450087540D /* UpcomingViewController.swift in Sources */,
+				1A0E70752A960C2800E4424B /* HeroHeaderUIView.swift in Sources */,
 				1A88AAF82A95C9740087540D /* SearchViewController.swift in Sources */,
 				1A88AAFA2A95C9930087540D /* DownloadsViewController.swift in Sources */,
 				1A88AAF42A95C9010087540D /* HomeViewController.swift in Sources */,
